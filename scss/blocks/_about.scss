@@ -1,0 +1,39 @@
+@import '../variables';
+
+.about {
+    padding: $section-padding;
+    background-color: white;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 78px;
+    }
+
+    &__image {
+        flex: 0 0 560px;
+        height: 540px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    &__content {
+        flex: 1;
+    }
+
+    &__title {
+        font-family: $font-heading;
+        font-weight: bold;
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    &__title-accent {
+        color: $accent-pink;
+    }
+
+    &__text {
+        font-size: 29px;
+        line-height: 1.5;
+    }
+}

@@ -1,0 +1,59 @@
+@import '../variables';
+
+.advantages {
+    padding: $section-padding;
+    background-color: white;
+
+    &__title {
+        font-family: $font-heading;
+        font-weight: bold;
+        font-size: 48px;
+        margin-bottom: 62px;
+        text-align: left;
+    }
+
+    &__title-accent {
+        color: $accent-pink;
+    }
+
+    &__grid {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__card {
+        flex: 1;
+        height: auto;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &--color-pink {
+            background-color: $card-pink;
+        }
+
+        &--color-blue {
+            background-color: $card-blue;
+        }
+    }
+
+    &__icon {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+        object-fit: contain;
+    }
+
+    &__card-title {
+        font-weight: bold;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    &__card-text {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}

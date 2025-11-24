@@ -1,0 +1,121 @@
+@import '../variables';
+
+.footer {
+    padding: 40px 0 30px;
+    background-color: $footer-bg;
+    max-height: 240px;
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: $container-width;
+        margin: 0 auto;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    &__column {
+        flex: 1;
+        padding: 0 20px;
+        position: relative;
+
+        &:not(:first-child):not(:last-child)::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 1px;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__list-item {
+        margin-bottom: 8px;
+    }
+
+    &__list-link {
+        text-decoration: none;
+        color: $text-dark;
+        transition: color 0.3s ease;
+        font-size: 16px;
+
+        &:hover {
+            color: $accent-pink;
+        }
+    }
+
+    &__contact {
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    &__contact-link {
+        display: block;
+        text-decoration: none;
+        color: $text-dark;
+        transition: color 0.3s ease;
+        margin-bottom: 12px;
+        font-size: 16px;
+
+        &:hover {
+            color: $accent-pink;
+        }
+    }
+
+    &__social-title {
+        font-weight: bold;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.3s ease;
+        font-size: 16px;
+
+        &:hover {
+            color: $accent-pink;
+        }
+    }
+
+    &__social-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        object-fit: contain;
+    }
+
+    &__logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    &__logo {
+        height: auto;
+        object-fit: contain;
+    }
+
+    &__contacts-title {
+        display: none;
+        font-weight: bold;
+        font-size: 24px;
+        color: #D96E9B;
+        margin-bottom: 20px;
+    }
+}

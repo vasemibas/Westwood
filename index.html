@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westwood - Стильные таблетницы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li><a href="#about" class="header__menu-item header__menu-item--active">О КОМПАНИИ</a></li>
+                    <li><a href="#products" class="header__menu-item">КАТАЛОГ</a></li>
+                    <li><a href="#advantages" class="header__menu-item">ПРЕИМУЩЕСТВА</a></li>
+                    <li><a href="#reviews" class="header__menu-item">ОТЗЫВЫ</a></li>
+                    <li><a href="404.html" class="header__menu-item">АКЦИИ</a></li>
+                    <li><a href="#contacts" class="header__menu-item">КОНТАКТЫ</a></li>
+                </ul>
+                <div class="header__burger">
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="img/hero-bg.png" alt="Фон" class="hero__bg">
+        
+        <div class="hero__container container">
+            <div class="hero__content">
+                <img src="img/logo-pink2.png" alt="Логотип Westwood" class="hero__logo">
+                <div class="hero__title">
+                    <div class="hero__title-large">НОВАЯ</div>
+                    <div class="hero__title-small">коллекция</div>
+                </div>
+                <a href="#products" class="btn">Купить коллекцию</a>
+            </div>
+            <div class="hero__image">
+                <img src="img/hero-device.png" alt="Стильная таблетница" class="hero__product">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about__container container">
+            <img src="img/fon.png" alt="О нашем магазине" class="about__image">
+            <div class="about__content">
+                <h2 class="about__title">О нашем <span class="about__title-accent">магазине</span></h2>
+                <p class="about__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h2 class="advantages__title"><span class="advantages__title-accent">Преимущества</span> наших таблетниц</h2>
+            <div class="advantages__grid">
+                <div class="advantages__card advantages__card--color-pink">
+                    <img src="img/powder1.png" alt="Стильный дизайн" class="advantages__icon">
+                    <h3 class="advantages__card-title">Стильный дизайн</h3>
+                    <p class="advantages__card-text">Наши таблетницы выглядят как премиальные аксессуары. Отличный подарок для тех, кто ценит красоту деталей.</p>
+                </div>
+                <div class="advantages__card advantages__card--color-blue">
+                    <img src="img/diamond1.png" alt="Премиум качество" class="advantages__icon">
+                    <h3 class="advantages__card-title">Премиум качество</h3>
+                    <p class="advantages__card-text">Мы производим таблетницы из качественного пластика и силикона. Внимательно относимся к упаковке.</p>
+                </div>
+                <div class="advantages__card advantages__card--color-pink">
+                    <img src="img/pill-box.png" alt="Широкий выбор" class="advantages__icon">
+                    <h3 class="advantages__card-title">Широкий выбор</h3>
+                    <p class="advantages__card-text">Вы можете выбрать таблетницу на день, неделю, месяц, с резаком или без. Разные цвета и дизайны.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="reviews__title"><span class="reviews__title-accent">Отзывы</span> наших клиентов</h2>
+            <div class="reviews__grid">
+                <div class="reviews__card">
+                    <div class="reviews__quotes"><img src="img/quotes.png" alt="Кавычки"></div>
+                    <div class="reviews__text">
+                        <p class="reviews__text-bold">Очень красивая вещь, не могу налюбоваться.</p>
+                        <p class="reviews__text-regular">По функционалу тоже удобная - вместительная, плотно закрывается. Очень довольна!Рекомендую однозначно.</p>
+                    </div>
+                    <div class="reviews__author">
+                        <img src="img/foto Elena.png" alt="Фото Елены" class="reviews__author-photo">
+                        <div class="reviews__author-info">
+                            <div class="reviews__author-name">Елена</div>
+                            <div class="reviews__rating">
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reviews__card">
+                    <div class="reviews__quotes"><img src="img/quotes.png" alt="Кавычки"></div>
+                    <div class="reviews__text">
+                        <p class="reviews__text-bold">Качество огонь, лучше, чем казалась на картинке.</p>
+                        <p class="reviews__text-regular">Очень качественная. Бомбически красивая, так мягко открывается и закрывается, я безумно  довольна.</p>
+                    </div>
+                    <div class="reviews__author">
+                        <img src="img/foto Alena.png" alt="Фото Алены" class="reviews__author-photo">
+                        <div class="reviews__author-info">
+                            <div class="reviews__author-name">Алёна</div>
+                            <div class="reviews__rating">
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reviews__card">
+                    <div class="reviews__quotes"><img src="img/quotes.png" alt="Кавычки"></div>
+                    <div class="reviews__text">
+                        <p class="reviews__text-bold">Ожидала китайское качество и царапанный пластик, но НЕТ!</p>
+                        <p class="reviews__text-regular">Очень довольна приобретением. Была приятно удивлена тем, что не к чему придраться) Ещё переживала, что большие капсулы в 3 см в неё не влезут, ну или влезут только они и всё) Тадааам!)) О чудо!) Места в отсека предостаточно для нескольких капсул)</p>
+                    </div>
+                    <div class="reviews__author">
+                        <img src="img/foto Svetlana.png" alt="Фото Светланы" class="reviews__author-photo">
+                        <div class="reviews__author-info">
+                            <div class="reviews__author-name">Светлана</div>
+                            <div class="reviews__rating">
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reviews__card">
+                    <div class="reviews__quotes"><img src="img/quotes.png" alt="Кавычки"></div>
+                    <div class="reviews__text">
+                        <p class="reviews__text-bold">Классная таблетница!</p>
+                        <p class="reviews__text-regular">Спасибо большое! Выглядит аккуратно, пластик прочный, приятный на ощупь. Защёлкиваются отсеки плотно, лезвие норм, режет хорошо. Рекомендую к покупке,  и в повседневной жизни, и в дорогу очень удобно, будьте здоровы !!!</p>
+                    </div>
+                    <div class="reviews__author">
+                        <img src="img/foto Tatyana.png" alt="Фото Татьяны" class="reviews__author-photo">
+                        <div class="reviews__author-info">
+                            <div class="reviews__author-name">Татьяна</div>
+                            <div class="reviews__rating">
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reviews__card">
+                    <div class="reviews__quotes"><img src="img/quotes.png" alt="Кавычки"></div>
+                    <div class="reviews__text">
+                        <p class="reviews__text-bold">Очень красивая таблетница похожая на маленькое произведение искусства.</p>
+                        <p class="reviews__text-regular">Брала в розовом цвете и очень довольна,теперь не  забываешь пить витамины :)</p>
+                    </div>
+                    <div class="reviews__author">
+                        <img src="img/foto Arina.png" alt="Фото Арины" class="reviews__author-photo">
+                        <div class="reviews__author-info">
+                            <div class="reviews__author-name">Арина</div>
+                            <div class="reviews__rating">
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reviews__card">
+                    <div class="reviews__quotes"><img src="img/quotes.png" alt="Кавычки"></div>
+                    <div class="reviews__text">
+                        <p class="reviews__text-bold">Одна из лучших!</p>
+                        <p class="reviews__text-regular">Очень удобная, много таблеток можно там хранить, и еще получаешь удовольствие от дизайна. И главное, что непонятно, что там лежит. Ведь прием таблеток чисто личное. Спасибо большое -это то что надо!!</p>
+                    </div>
+                    <div class="reviews__author">
+                        <img src="img/foto Tatyana2.png" alt="Фото Татьяны" class="reviews__author-photo">
+                        <div class="reviews__author-info">
+                            <div class="reviews__author-name">Татьяна</div>
+                            <div class="reviews__rating">
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                                <div class="reviews__star"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="products__title"><span class="products__title-accent">Популярные</span> товары</h2>
+            <div class="products__carousel">
+                <button class="products__nav products__nav--prev" title="Предыдущий товар"></button>
+                <button class="products__nav products__nav--next" title="Следующий товар"></button>
+                
+                <div class="products__track">
+                    <div class="products__card">
+                        <img src="img/goods1.png" alt="Таблетница на 6 отделений" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница на 6 отделений</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="products__card">
+                        <img src="img/goods2.png" alt="Таблетница на 6 отделений" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница на 6 отделений</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="products__card">
+                        <img src="img/goods3.png" alt="Таблетница на 4 отделения" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница на 4 отделения</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="products__card">
+                        <img src="img/goods4.png" alt="Таблетница мини" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница мини</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="products__card">
+                        <img src="img/goods5.png" alt="Таблетница с делителем" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница с делителем</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="products__card">
+                        <img src="img/goods6.png" alt="Таблетница на 7 дней" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница на 7 дней</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="products__card">
+                        <img src="img/goods7.png" alt="Таблетница  на 21 отделение" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница  на 21 отделение</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="products__card">
+                        <img src="img/goods8.png" alt="Таблетница на 6 отделений" class="products__image">
+                        <div class="products__info">
+                            <div class="products__name">Таблетница на 6 отделений</div>
+                            <div class="products__actions">
+                                <a href="404.html" class="btn btn--size-small btn--color-wb">WILDBERRIES</a>
+                                <a href="404.html" class="btn btn--size-small btn--color-ozon">OZON</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__indicators">
+                    <div class="products__indicator products__indicator--active" data-index="0"></div>
+                    <div class="products__indicator" data-index="2"></div>
+                    <div class="products__indicator" data-index="4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="contacts__container container">
+            <div class="contacts__images">
+                <img src="img/tabl.png" alt="Контакты изображение" class="contacts__image">
+            </div>
+            <div class="contacts__form-container">
+                <h2 class="contacts__title"><span class="contacts__title-accent">Оставьте заявку</span> и мы с вами свяжемся</h2>
+                <p class="contacts__subtitle">Наш консультант свяжется с Вами в ближайшее время.</p>
+                <form class="contacts__form" id="contact-form">
+                    <input type="text" class="contacts__input" placeholder="Ваше имя" required>
+                    <input type="tel" class="contacts__input" placeholder="Ваш телефон" required>
+                    <button type="submit" class="btn contacts__btn btn--width-full">Позвоните мне</button>
+                </form>
+                <p class="contacts__notice">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__column">
+                <div class="footer__contacts-title">Контакты</div>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#about" class="footer__list-link">О компании</a></li>
+                    <li class="footer__list-item"><a href="#products" class="footer__list-link">Каталог</a></li>
+                    <li class="footer__list-item"><a href="#advantages" class="footer__list-link">Преимущества</a></li>
+                    <li class="footer__list-item"><a href="#reviews" class="footer__list-link">Отзывы</a></li>
+                    <li class="footer__list-item"><a href="#sale" class="footer__list-link">Акции</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <div class="footer__contact">Телефон</div>
+                <a href="tel:+77777770000" class="footer__contact-link">+7 (777) 777 00 00</a>
+                <div class="footer__contact">Email</div>
+                <a href="mailto:email@gmail.com" class="footer__contact-link">email@gmail.com</a>
+            </div>
+            <div class="footer__column">
+                <div class="footer__social-title">Мы в соц. сетях</div>
+                <a href="404.html" class="footer__social">
+                    <img src="img/instagram.png" alt="Instagram" class="footer__social-icon">
+                    <div>@instagram</div>
+                </a>
+                <a href="404.html" class="footer__social">
+                    <img src="img/telegram.png" alt="Telegram" class="footer__social-icon">
+                    <div>@telegram</div>
+                </a>
+                <a href="404.html" class="footer__social">
+                    <img src="img/vk.png" alt="VK" class="footer__social-icon">
+                    <div>nik_vk</div>
+                </a>
+            </div>
+            <div class="footer__column">
+                <div class="footer__logo-container">
+                    <img src="img/logo-black.png" alt="Логотип Westwood" class="footer__logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/js.js"></script>
+</body>
+</html> 

@@ -1,0 +1,559 @@
+@media (max-width: 1199px) {
+    .container, .header__container, .hero__container {
+        max-width: 1024px;
+    }
+    
+    .about__text {
+        font-size: 24px;
+    }
+    
+    .hero__logo {
+        width: 400px;
+    }
+    
+    .hero__title-large {
+        font-size: 110px;
+    }
+    
+    .hero__title-small {
+        font-size: 75px;
+    }
+    
+    .hero__product {
+        width: 700px;
+        height: 700px;
+    }
+    
+    .reviews__quotes {
+        width: 50px;
+        height: 40px;
+    }
+    
+    .reviews__star {
+        width: 24px;
+    }
+    
+    .reviews__rating {
+        gap: 10px;
+    }
+    
+    .products__card {
+        flex: 0 0 280px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container, .header__container, .hero__container {
+        max-width: 768px;
+    }
+    
+    .header__nav {
+        justify-content: flex-end;
+    }
+    
+    .header__menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 20px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        padding: 20px;
+        text-align: right;
+        gap: 20px;
+        border-radius: 0 0 0 10px;
+    }
+    
+    .header__menu--active {
+        display: flex;
+    }
+    
+    .header__burger {
+        display: flex;
+    }
+    
+    .hero {
+        min-height: 700px;
+    }
+    
+    .hero__container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero__content {
+        padding-top: 120px;
+    }
+    
+    .hero__logo {
+        width: 350px;
+        margin: 0 auto 40px;
+    }
+    
+    .hero__title-large {
+        font-size: 90px;
+    }
+    
+    .hero__title-small {
+        font-size: 50px;
+    }
+    
+    .hero__product {
+        width: 400px;
+        height: 400px;
+        margin-top: 40px;
+    }
+    
+    .about__container {
+        flex-direction: column;
+    }
+    
+    .about__image {
+        width: 100%;
+        max-width: 560px;
+    }
+    
+    .advantages__grid {
+        flex-wrap: wrap;
+    }
+    
+    .advantages__card {
+        flex: 0 0 calc(50% - 15px);
+    }
+    
+    .reviews__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .reviews__quotes {
+        width: 45px;
+        height: 35px;
+        top: 15px;
+        right: 15px;
+    }
+    
+    .reviews__rating {
+        gap: 8px;
+    }
+    
+    .reviews__star {
+        width: 22px;
+    }
+    
+    .products__card {
+        flex: 0 0 300px;
+    }
+    
+    .products__track {
+        justify-content: flex-start;
+    }
+    
+    .contacts__container {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    
+    .contacts__images {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+    }
+    
+    .footer {
+        max-height: none;
+        min-height: auto;
+        padding: 30px 0;
+    }
+    
+    .footer__container {
+        flex-wrap: wrap;
+    }
+    
+    .footer__column {
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+    
+    .footer__column:nth-child(odd)::before {
+        display: none;
+    }
+    
+    .footer__column:nth-child(3)::before {
+        display: block;
+    }
+
+    .products__nav {
+        opacity: 0.1;
+    }
+}
+
+@media (max-width: 767px) {
+    .container, .header__container, .hero__container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
+    .header__container {
+        padding: 20px 15px;
+    }
+    
+    .hero {
+        min-height: 600px;
+    }
+    
+    .hero__logo {
+        width: 280px;
+        height: 70px;
+    }
+    
+    .hero__title-large {
+        font-size: 60px;
+    }
+    
+    .hero__title-small {
+        font-size: 35px;
+    }
+    
+    .hero__product {
+        width: 300px;
+        height: auto;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    
+    .about__title, .advantages__title, .reviews__title, .products__title, .contacts__title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    
+    .about__text {
+        font-size: 18px;
+    }
+    
+    .about__container {
+        gap: 40px;
+    }
+    
+    .about__image {
+        flex: 0 0 100%;
+        height: 400px;
+    }
+    
+    .advantages__grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .advantages__card {
+        flex: 0 0 100%;
+        padding: 30px 20px;
+    }
+    
+    .advantages__icon {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .advantages__card-title {
+        font-size: 22px;
+    }
+    
+    .advantages__card-text {
+        font-size: 16px;
+    }
+    
+    .reviews__grid {
+        gap: 20px;
+    }
+    
+    .reviews__card {
+        padding: 20px;
+    }
+    
+    .reviews__quotes {
+        width: 40px;
+        height: 30px;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .reviews__text-bold {
+        font-size: 18px;
+    }
+    
+    .reviews__text-regular {
+        font-size: 15px;
+    }
+    
+    .reviews__author-photo {
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;
+    }
+    
+    .reviews__author-name {
+        font-size: 17px;
+    }
+    
+    .reviews__rating {
+        gap: 5px;
+    }
+    
+    .reviews__star {
+        width: 18px;
+    }
+    
+    .products__carousel {
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+    }
+    
+    .products__track {
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .products__card {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        min-height: 450px;
+        margin: 0 auto;
+    }
+    
+    .products__image {
+        height: 280px;
+    }
+    
+    .products__info {
+        padding: 15px 10px;
+        height: auto;
+        min-height: 130px;
+    }
+    
+    .products__name {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .products__nav {
+        display: none;
+    }
+    
+    .products__indicators {
+        display: none;
+    }
+    
+    .contacts__title {
+        font-size: 32px;
+    }
+    
+    .contacts__subtitle {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .contacts__input, .contacts__btn {
+        height: 60px;
+        font-size: 16px;
+    }
+    
+    .contacts__btn {
+        font-size: 20px;
+        margin: 0 auto;
+        display: block;
+        max-width: 300px;
+    }
+    
+    .contacts__form {
+        align-items: center;
+    }
+    
+    .contacts__input {
+        max-width: 300px;
+    }
+    
+    .contacts__images {
+        height: 300px;
+    }
+    
+    .footer {
+        padding: 30px 0;
+        max-height: none;
+        min-height: auto;
+    }
+    
+    .footer__container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .footer__column {
+        flex: 0 0 100%;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .footer__column:not(:first-child):not(:last-child)::before {
+        display: none;
+    }
+    
+    .footer__column:not(:last-child)::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin: 20px 0;
+    }
+    
+    .footer__list {
+        display: none;
+    }
+    
+    .footer__contacts-title {
+        display: block;
+        font-weight: bold;
+        font-size: 24px;
+        color: #D96E9B;
+        margin-bottom: 20px;
+    }
+    
+    .footer__contact {
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .footer__contact-link {
+        display: block;
+        text-decoration: none;
+        color: var(--text-dark);
+        transition: color 0.3s ease;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    
+    .footer__social-title {
+        font-weight: bold;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    
+    .footer__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.3s ease;
+        font-size: 16px;
+    }
+    
+    .footer__social-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        object-fit: contain;
+    }
+    
+    .footer__logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-top: 10px;
+    }
+    
+    .footer__logo {
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__title-large {
+        font-size: 50px;
+    }
+    
+    .hero__title-small {
+        font-size: 28px;
+    }
+    
+    .hero__logo {
+        width: 250px;
+        height: 60px;
+    }
+    
+    .hero__product {
+        width: 280px;
+        height: auto;
+    }
+    
+    .about__title, .advantages__title, .reviews__title, .products__title, .contacts__title {
+        font-size: 28px;
+    }
+    
+    .about__image {
+        height: 300px;
+    }
+    
+    .contacts__title {
+        font-size: 28px;
+    }
+    
+    .contacts__subtitle {
+        font-size: 18px;
+    }
+    
+    .reviews__quotes {
+        width: 35px;
+        height: 25px;
+        top: 8px;
+        right: 8px;
+    }
+    
+    .btn--size-small {
+        width: 100px;
+        height: 40px;
+        font-size: 11px;
+    }
+    
+    .reviews__rating {
+        gap: 3px;
+    }
+    
+    .reviews__star {
+        width: 16px;
+    }
+    
+    .products__card {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+    
+    .products__actions {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .btn--size-small {
+        width: 140px;
+    }
+}

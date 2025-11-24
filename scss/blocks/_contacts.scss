@@ -1,0 +1,79 @@
+@import '../variables';
+
+.contacts {
+    padding: $section-padding;
+    background-color: white;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+
+    &__images {
+        flex: 1;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    &__form-container {
+        flex: 1;
+        max-width: none;
+    }
+
+    &__title {
+        font-family: $font-heading;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    &__title-accent {
+        color: $accent-pink-dark;
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        margin-bottom: 40px;
+        line-height: 1.4;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__input {
+        width: 100%;
+        height: 85px;
+        padding: 0 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: $font-body;
+        font-size: 18px;
+    }
+
+    &__btn {
+        width: 100%;
+        height: 85px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    &__notice {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 15px;
+        color: #666;
+    }
+}

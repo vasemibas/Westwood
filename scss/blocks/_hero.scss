@@ -1,0 +1,79 @@
+@import '../variables';
+
+.hero {
+    position: relative;
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -2;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: -1;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: $container-width;
+        margin: 0 auto;
+        padding: 0 20px;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__logo {
+        width: 470px;
+        height: 115px;
+        margin-bottom: 65px;
+        object-fit: contain;
+    }
+
+    &__title {
+        font-family: $font-heading;
+        color: $text-light;
+        margin-bottom: 40px;
+    }
+
+    &__title-large {
+        font-size: 134px;
+        line-height: 1;
+    }
+
+    &__title-small {
+        font-size: 75px;
+        line-height: 1;
+    }
+
+    &__image {
+        flex: 0 0 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__product {
+        width: 900px;
+        height: 900px;
+        object-fit: contain;
+    }
+}
